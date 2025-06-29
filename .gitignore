@@ -1,0 +1,68 @@
+# Java/Spring Boot
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+*.iml
+*.class
+
+# Maven
+backend/logs/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Node/React
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.h2.db
+*.mv.db
+*.sqlite
+*.db
+*.sql~
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sensitive
+.env
+.env.*
+
+# Test/coverage
+coverage/
+frontend/coverage/
+
+# Others
+*.bak
+*.tmp
+*.orig 
+
+PRD.txt
+PRD_COMPLIANCE.md
+check-database.sql
+setup-postgres.bat
+setup-postgres.sql
+test-backend.bat
+start.bat
+start.sh
+backend/start-backend.ps1
